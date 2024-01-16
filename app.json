@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "viyaga-webview1",
+    "name": "viyaga-webview",
     "slug": "viyaga-webview1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.viyagamohan.viyagawebview1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fba31be-0c16-4205-ad96-83fae0c313b6"
+      }
     }
   }
 }
